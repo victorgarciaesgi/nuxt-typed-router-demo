@@ -2,7 +2,7 @@
   <button @click="navigate">Navigate to user</button>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import { useTypedRouter, useTypedRoute } from '@typed-router';
 
 const router = useTypedRouter();
