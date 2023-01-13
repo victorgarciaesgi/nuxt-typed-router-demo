@@ -1,1 +1,1 @@
-<template>Hi!</template>
+<template><NuxtPage /></template>

@@ -1,1 +1,1 @@
-<template>Hi!</template>
+<template>User posts</template>

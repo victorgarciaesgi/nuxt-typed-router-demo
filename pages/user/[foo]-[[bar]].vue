@@ -1,0 +1,1 @@
+<template>Foo bar</template>

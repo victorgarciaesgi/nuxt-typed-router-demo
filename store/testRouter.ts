@@ -9,6 +9,7 @@ router.push({ name: 'user-id' }); // Error
 router.push({ name: 'user-id', params: { foo: 'bar' } }); // Error
 
 router.push({ name: 'user-id', params: { id: 1 } }); // Good
+router.push({ name: 'user-foo-bar', params: { foo: 1 } }); // Good
 
 const route = useTypedRoute('user-id');
 
