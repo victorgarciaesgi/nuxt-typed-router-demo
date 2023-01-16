@@ -9,6 +9,6 @@
   },
   "devDependencies": {
     "nuxt": "3.0.0",
-    "nuxt-typed-router": "latest"
+    "nuxt-typed-router": "2.0.2"
   }
 }
