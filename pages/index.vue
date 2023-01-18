@@ -3,9 +3,9 @@
 </template>
 
 <script setup lang="ts">
-import { useTypedRouter, useTypedRoute } from '@typed-router';
+import { useRouter, useRoute } from '@typed-router';
 
-const router = useTypedRouter();
+const router = useRouter();
 
 function navigate() {
   router.push({ name: 'user-id', params: { id: 1 } });
