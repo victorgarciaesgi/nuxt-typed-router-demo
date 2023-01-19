@@ -1,8 +1,8 @@
 import { useRouter, useRoute } from '@typed-router';
 
 /**
- * Stackblitz does not support Typescript on `.vue` files yet, to to test `<NuxtLink/>`
- * you clone and open VSCode localy.
+ * Stackblitz does not support Typescript on `.vue` files yet,
+ * so to test `<NuxtLink/>` you have to clone and open VSCode localy.
  */
 
 const router = useRouter();
