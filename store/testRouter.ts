@@ -1,4 +1,4 @@
-import { useRouter, useRoute } from '@typed-router';
+import { useRouter, useRoute, navigateTo } from '@typed-router';
 
 /**
  * Stackblitz does not support Typescript on `.vue` files yet,
@@ -6,6 +6,8 @@ import { useRouter, useRoute } from '@typed-router';
  */
 
 const router = useRouter();
+
+navigateTo({ name: 'user-foo-bar', params: { foo: 'bar' } , });
 
 // @ts-expect-error
 router.push({ name: 'user-id' }); // Error
