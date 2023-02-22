@@ -3,6 +3,8 @@ import { useRouter, useRoute, navigateTo } from '@typed-router';
 /**
  * Stackblitz does not support Typescript on `.vue` files yet,
  * so to test `<NuxtLink/>` you have to clone and open VSCode localy.
+ *
+ * Path typecheck is not working on Stackblitz because of missing `crypto` module for WebContainers, and nanoid is used for generating path-check types names
  */
 
 const router = useRouter();
