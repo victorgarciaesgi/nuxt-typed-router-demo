@@ -11,6 +11,6 @@
     "nuxt": "3.2.2"
   },
   "dependencies": {
-    "nuxt-typed-router": "^3.0.0"
+    "nuxt-typed-router": "^3.0.1-beta.0"
   }
 }

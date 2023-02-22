@@ -9,6 +9,14 @@ import { useRouter, useRoute, navigateTo } from '@typed-router';
 
 const router = useRouter();
 
+const id = 'iieud88';
+router.push(`/user/${id}`);
+router.push(`/user/${id}?foo=bar`);
+router.push(`/user/${id}#anchor`);
+
+router.push(`/user/${id}/bar`); // Error ❌
+router.push(`/user///H367`); // Error ❌
+
 navigateTo({ name: 'user-foo-bar', params: { foo: 'bar' } });
 
 router.push({ name: 'user-id' }); // Error ❌
