@@ -19,6 +19,9 @@ router.push(`/user///H367`); // Error ❌
 
 navigateTo({ name: 'user-foo-bar', params: { foo: 'bar' } });
 
+navigateTo('/lhflzfezhf'); // Error ❌
+navigateTo('/lhflzfezhf', { external: true });
+
 router.push({ name: 'user-id' }); // Error ❌
 
 router.push({ name: 'user-id', params: { foo: 'bar' } }); // Error ❌
