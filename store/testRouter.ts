@@ -4,12 +4,14 @@ import { useRouter, useRoute, navigateTo } from '@typed-router';
  * Stackblitz does not support Typescript on `.vue` files yet,
  * so to test `<NuxtLink/>` you have to clone and open VSCode localy.
  *
- * Path autocomplete is not working on Stackblitz
  */
 
 const router = useRouter();
 
 const id = 'iieud88';
+
+router.push('/'); // Try autocomplete here (ctrl+space)
+
 router.push(`/user/${id}`);
 router.push(`/user/${id}?foo=bar`);
 router.push(`/user/${id}#anchor`);
@@ -19,7 +21,7 @@ router.push(`/user///H367`); // Error ❌
 
 navigateTo({ name: 'user-foo-bar', params: { foo: 'bar' } });
 
-navigateTo('/lhflzfezhf'); // Error ❌
+navigateTo('/'); // Error ❌
 navigateTo('/lhflzfezhf', { external: true });
 
 router.push({ name: 'user-id' }); // Error ❌
