@@ -8,9 +8,9 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "nuxt": "3.7.3"
+    "nuxt": "3.8.2"
   },
   "dependencies": {
-    "nuxt-typed-router": "3.3.1"
+    "nuxt-typed-router": "3.4.0"
   }
 }
